@@ -30,7 +30,7 @@ This project demonstrates a computer vision-based robotic fruit-picking system d
         fill_mode='nearest'
     )
     ```
-
+  ![Block Diagram](https://github.com/srijaaaaa/Automated-Fruit-Recognition-and-Picking-System/blob/main/1.2.jpg)
 2. **Model Architecture**: Built using Keras with layers for feature extraction (`Conv2D`), down-sampling (`MaxPooling2D`), and dropout for regularization.
 
     ```python
