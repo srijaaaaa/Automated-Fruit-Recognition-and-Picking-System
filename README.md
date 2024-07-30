@@ -31,7 +31,8 @@ This project demonstrates a computer vision-based robotic fruit-picking system d
     )
     ```
   ![Block Diagram](https://github.com/srijaaaaa/Automated-Fruit-Recognition-and-Picking-System/blob/main/1.2.jpg)
-2. **Model Architecture**: Built using Keras with layers for feature extraction (`Conv2D`), down-sampling (`MaxPooling2D`), and dropout for regularization.
+
+  2. **Model Architecture**: Built using Keras with layers for feature extraction (`Conv2D`), down-sampling (`MaxPooling2D`), and dropout for regularization.
 
     ```python
     from tensorflow.keras.models import Sequential
@@ -65,6 +66,8 @@ This project demonstrates a computer vision-based robotic fruit-picking system d
     )
     ```
 
+    ![Model](https://github.com/srijaaaaa/Automated-Fruit-Recognition-and-Picking-System/blob/main/1.3.jpg)
+
 4. **Evaluation & Enhancement**: Model performance evaluated on test data. For example, if the test accuracy is 85% and loss is 0.4, enhancements based on these metrics are applied to improve generalization and robustness.
 
     ```python
@@ -76,6 +79,8 @@ This project demonstrates a computer vision-based robotic fruit-picking system d
 ## Results
 
 The system successfully classified and picked fruits, demonstrating effective learning and generalization from the training data. Performance metrics showed improvements, with accuracy increasing from an initial 70% to 85% and loss reducing from 0.6 to 0.4 over the training period.
+
+ ![Result](https://github.com/srijaaaaa/Automated-Fruit-Recognition-and-Picking-System/blob/main/1.4.jpg)
 
 ## Future Work
 
